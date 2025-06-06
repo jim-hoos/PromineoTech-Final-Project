@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: portfolio_tracker
+    password: portfolio_tracker
+    url: jdbc:mysql://localhost:3306/portfolio_tracker
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  sql:
+    init:
+      mode: always
