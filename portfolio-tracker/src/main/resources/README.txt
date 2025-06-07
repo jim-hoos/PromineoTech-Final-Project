@@ -40,13 +40,16 @@ Disclaimers:
 - All functionality has been tested but time does not allow it all to be demonstrated in a five min. video.
 - Added print to console for a few select endpoint calls to make the display output more user friendly
 	since no front end is available.
-- Not designed for performance - given more time would make changes.
+- Not designed for performance - given more time would make performant improvements.
 - URIs could be more intuitive but chose brevity instead of verboseness.
+- All desired endpoints are included and functional though new endpoint calls may be needed to get future
+	functionality by combining existing endpoints (if that makes sense).
 	
 ToDo & Future Enhancements:
 - Add more comments
 - Address "TODO" reference comments in the code
 - Remove 'block' calls inside WebClient/react code
-- Add a new table for research which could items like a 200 day moving average
+- Add means to access the YAML file properties through JPA - spent some time on this but wasn't working
+- Add a new table for equity research which could include items like a 200 day moving average
 - Add a front end using React which could include a portfolio table, graphs for historical performance,
 	forms to enter buy/sell transactions.
